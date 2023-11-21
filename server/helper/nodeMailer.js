@@ -25,14 +25,13 @@ export async function sentMail(email, registrationDetails) {
         <ul>
           <li>Full Name: ${registrationDetails.fullName}</li>
           <li>Mobile: ${registrationDetails.mobile}</li>
-          <li>Email: ${registrationDetails.email}</li>
           <li>Company Name: ${registrationDetails.companyName}</li>
           <li>Workshop: ${registrationDetails.workshop}</li>
           <!-- Add more details as needed -->
         </ul>
         <p>Event details:</p>
         <ul>
-          <li>Timestamp: ${registrationDetails.timestamp}</li>
+          <li>Registration Time: ${registrationDetails.timestamp}</li>
           <!-- Add more event details as needed -->
         </ul>
       `,

@@ -6,7 +6,7 @@ import Asset6 from '../assets/Asset 6.png';
 
 function Workspace() {
   const data = [
-    { image: Asset3, text: 'System, Processes & Assurance - Be Good not Lucky' },
+    { image: Asset3, text: 'System,   Processes &  Assurance - Be  Good  not  Lucky' },
     { image: Asset4, text: 'The Leaders in Delivering Success - What Type of Leader is Needed' },
     { image: Asset5, text: 'Human Reliability - Why Things Go Wrong and What Can We Do?' },
     { image: Asset6, text: 'Creating a Learning Culture - The Way We Choose Do Things Around Here' },
@@ -18,12 +18,11 @@ function Workspace() {
         Workspace
       </h5>
       <div className="flex flex-wrap justify-center">
-        {/* First row */}
         {data.slice(0, 2).map((item, index) => (
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full mt-12 mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-30 h-10 md:h-40"
+                className="object-cover w-full h-20 w-20"
                 src={item.image}
                 alt=""
               />
@@ -39,7 +38,7 @@ function Workspace() {
                       <td>
                         <button
                           type="button"
-                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-100 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
                         >
                           Read more
                         </button>
@@ -53,12 +52,11 @@ function Workspace() {
         ))}
       </div>
       <div className="flex flex-wrap justify-center">
-        {/* Remaining images */}
         {data.slice(2).map((item, index) => (
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full mt-12 mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-30 h-10 md:h-40"
+                className="object-cover w-full h-20 w-20"
                 src={item.image}
                 alt=""
               />
@@ -74,7 +72,7 @@ function Workspace() {
                       <td>
                         <button
                           type="button"
-                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-100 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
                         >
                           Read more
                         </button>
