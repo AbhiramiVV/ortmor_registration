@@ -30,7 +30,6 @@ const RegistrationForm = () => {
       });
 
       setDepartmentList(updatedList);
-      console.log(updatedList, "final");
     } catch (error) {
       console.log("Error", error);
     }
@@ -83,7 +82,6 @@ const RegistrationForm = () => {
         Register to Attend
       </h2>
       <form className="grid grid-cols-2 gap-4 max-w-md" onSubmit={handleSubmit}>
-        {/* Full Name */}
         <div className="mb-4">
           <label className="block text-xl mb-2" htmlFor="fullName">
             Full Name:
@@ -100,7 +98,6 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* Email */}
         <div className="mb-4">
           <label className="block text-xl mb-2" htmlFor="email">
             Email:
@@ -117,7 +114,6 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* Mobile */}
         <div className="mb-4">
           <label className="block text-xl mb-2" htmlFor="mobile">
             Mobile:
@@ -134,7 +130,6 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* Company Name */}
         <div className="mb-4">
           <label className="block text-xl mb-2" htmlFor="companyName">
             Company Name:
@@ -151,8 +146,6 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* Workshop Selection */}
-        {/* Workshop Selection */}
         <div className="mb-4 col-span-2">
           <label className="block text-xl mb-2" htmlFor="workshop">
             Workshop:
@@ -181,7 +174,6 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        {/* Submit Button */}
         <div className="mb-2 col-span-2">
           <button
             type="submit"

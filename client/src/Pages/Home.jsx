@@ -3,12 +3,9 @@ import homes from "../assets/home.png";
 import about from "../assets/about.png";
 import { Link } from "react-router-dom";
 import Agenda from "./Agenda";
-import agendas from "../assets/Asset 2.png";
 import logo from "../assets/Asset 1.png"
 import Workspace from "./Workspace";
 import RegistrationForm from "./RegistrationForm";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Footer from "./Footer";
 
 function Home() {

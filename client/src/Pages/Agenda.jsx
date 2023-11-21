@@ -1,5 +1,5 @@
 import React from 'react';
-import agendas from '../assets/Asset 2.png'// Make sure the image path is correct
+import agendas from '../assets/Asset 2.png'
 
 function Agenda() {
   return (
