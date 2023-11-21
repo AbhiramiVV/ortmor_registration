@@ -164,8 +164,8 @@ const RegistrationForm = () => {
               <option
               key={index}
               value={dept.depName}
-              disabled={dept.count > 40}
-              className={dept.count >40 ? "text-gray-500" : "text-black"} 
+              disabled={dept.count >= 40}
+              className={dept.count >=40 ? "text-gray-500" : "text-black"} 
             >
               {`${dept.depName}`}
             </option>
