@@ -8,7 +8,6 @@ export async function userRegister(req, res) {
       workshop: workshop,
     }).countDocuments();
 
-    console.log(count);
     if (count < 40) {
       const registrationDetails = {
         fullName,

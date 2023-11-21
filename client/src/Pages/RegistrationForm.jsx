@@ -42,7 +42,13 @@ const RegistrationForm = () => {
       setLoad(false);
     }
   }, [load, getDepData]);
-
+  const resetForm = () => {
+    setFullName("");
+    setMobile("");
+    setEmail("");
+    setCompanyName("");
+    setWorkshop("");
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -54,11 +60,15 @@ const RegistrationForm = () => {
         workshop,
       });
 
-      console.log(response.message,'response',response);
+
       if (response.data.success) {
         toast.success(response.data.message);
+        resetForm();
+
       }else{
         toast.error(response.data.message)
+        resetForm();
+
       }
 
 
