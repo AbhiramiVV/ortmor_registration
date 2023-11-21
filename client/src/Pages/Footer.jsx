@@ -5,7 +5,7 @@ import { faTwitter, faLinkedin, faInstagram, faFacebook } from '@fortawesome/fre
 
 const Footer = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 w-full h-56 bg-[#31C48D] pt-5 sm:p-12 bottom-0'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 w-full h-56 bg-[#11afa2f1] pt-5 sm:p-12 bottom-0'>
       <div className='text-white text-center mb-4'>
         <FontAwesomeIcon icon={faMapMarker} className='mx-auto mb-2' />
         <p>Headquarters: Muscat, Oman</p>

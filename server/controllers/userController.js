@@ -15,7 +15,7 @@ export async function userRegister(req, res) {
         email,
         companyName,
         workshop,
-        timestamp: new Date().toISOString(),
+        timestamp: new Date().toISOString().split('T'),
       };
 
       sentMail(email, registrationDetails);

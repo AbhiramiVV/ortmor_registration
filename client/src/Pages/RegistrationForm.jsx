@@ -77,7 +77,7 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-30 bg-blue-900 text-white">
+    <div className="flex flex-col items-center justify-center min-h-30 bg-[#020244f1] text-white">
       <h2 className="text-4xl font-bold text-center mb-8 mt-8">
         Register to Attend
       </h2>
@@ -167,7 +167,7 @@ const RegistrationForm = () => {
               disabled={dept.count > 40}
               className={dept.count >40 ? "text-gray-500" : "text-black"} 
             >
-              {`${dept.depName} (${dept.count})`}
+              {`${dept.depName}`}
             </option>
               ))}
             </select>
