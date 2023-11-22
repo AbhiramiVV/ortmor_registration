@@ -22,7 +22,7 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full mt-12 mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-20 w-20"
+                className="object-cover w-full h-15 w-10"
                 src={item.image}
                 alt=""
               />
@@ -38,7 +38,7 @@ function Workspace() {
                       <td>
                         <button
                           type="button"
-                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-300 dark:focus:ring-gray-700 dark:border-gray-700"
                         >
                           Read more
                         </button>
@@ -56,23 +56,23 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full  mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-20 w-20"
+                className="object-cover w-full h-15 w-10"
                 src={item.image}
                 alt=""
               />
             </div>
             <div className="container mx-auto p-3 bg-gray-100 max-w-sm  overflow-hidden shadow-xl hover:shadow-2xl transition duration-300 mt-0">
-              <div className="flex justify-between items-center mt-0">
+              <div className="flex justify-between items-center mt-5">
                 <table className="text-xs my-3">
                   <tbody>
                     <tr>
-                      <td className="px-2 py-2 text-4xl font-normal">{item.text}</td>
+                      <td className="px-2 py-2 text-3xl font-normal">{item.text}</td>
                     </tr>
                     <tr>
                       <td>
                         <button
                           type="button"
-                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-300 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
                         >
                           Read more
                         </button>

@@ -47,7 +47,7 @@ function Home() {
           <Link to="/registration">
             <button
               type="button"
-              className="text-white  text-sm font-bold  focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-7 py-2.5 mr-8 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+              className="text-white  text-sm font-bold dark:bg-blue-300 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-7 py-2.5 mr-8 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
             >
               Register
             </button>
