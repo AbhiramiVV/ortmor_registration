@@ -145,7 +145,6 @@ const RegistrationForm = () => {
             />
           </div>
         </div>
-http://localhost:7000
         <div className="mb-4 col-span-2">
           <label className="block text-xl mb-2" htmlFor="workshop">
             Workshop:
