@@ -174,14 +174,16 @@ const RegistrationForm = () => {
           </div>
         </div>
 
-        <div className="mb-2 col-span-2">
-          <button
-            type="submit"
-            className="w-full bg-orange-500 text-white py-2 px-2 rounded-md hover:bg-orange-600 focus:outline-none focus:shadow-outline-orange"
-          >
-            Submit
-          </button>
-        </div>
+        <div className="mb-2 col-span-2 flex items-center justify-center">
+  <button
+    type="submit"
+    className="bg-orange-500 text-white py-2 px-4 rounded-md hover:bg-orange-600 focus:outline-none focus:shadow-outline-orange"
+    style={{ width: '50%' }}
+  >
+    Submit
+  </button>
+</div>
+
       </form>
       <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
     </div>

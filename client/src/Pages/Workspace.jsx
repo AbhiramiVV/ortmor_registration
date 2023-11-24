@@ -6,9 +6,9 @@ import Asset6 from '../assets/Asset 6.png';
 
 function Workspace() {
   const data = [
-    { image: Asset3, text: 'Systems,   Processes &  Assurance - Be a Good  not a Lucky' },
+    { image: Asset3, text: '"Systems, Processes & Assurance - Be a Good Steward, not a Lucky Gambler."' },
     { image: Asset4, text: 'The Leaders in Delivering Success - What Type of Leader is Needed' },
-    { image: Asset5, text: 'Human Reliability - Why Things Go Wrong and What Can We Do?' },
+    { image: Asset5, text: 'Human Reliability - Why Things Go Wrong and What Can We Learn Do About It?' },
     { image: Asset6, text: 'Creating a Learning Culture - The Way We Choose Do Things Around Here' },
   ];
 
