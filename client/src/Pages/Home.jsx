@@ -54,14 +54,20 @@ function Home() {
 </div>
 
 
-      <div className="relative grid h-[15rem] w-full overflow-hidden rounded-xl bg-white text-center text-gray-200">
-        <div
-          className="absolute inset-0 m-0 h-full overflow-hidden  bg-cover  bg-center text-gray-100 shadow-none w-full"
-          style={{ backgroundImage: `url(${about})` }}
-        >
-          <div className="to-bg-black-5 absolute inset-0 h-full w-full bg-gradient-to-t "></div>
-        </div>
-      </div>
+<div className="relative grid h-[15rem] sm:h-[20rem] lg:h-[25rem] xl:h-[30rem] w-full overflow-hidden rounded-xl bg-white text-center text-gray-200">
+  <div className="absolute inset-0 flex flex-col justify-center items-center">
+    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-orange-500 mb-6">About OQ HSSE Symposium 2023</h1>
+    <p className="text-black text-lg sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">
+      Welcome to the OQ HSSE Symposium 2023, a premier conference dedicated to Health, Safety,
+      Security, and Environment (HSSE) excellence. At the heart of our vision lies a simple yet
+      profound goal - to create a safer, healthier, and more sustainable future for our workforce,
+      partners, and the communities we serve. As we look ahead to the year 2024 and beyond, we are
+      steadfast in our commitment to lead by example and drive positive change within the industry.
+    </p>
+  </div>
+</div>
+
+
       <div>
         <Agenda />
       </div>
