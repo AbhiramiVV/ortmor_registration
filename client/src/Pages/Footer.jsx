@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Text on Right */}
-      <div className='text-white text-center  sm:text-right col-span-3 sm:col-span-1 mb-4'>
+      <div className='text-white text-center   sm:text-right col-span-3 sm:col-span-1 mb-4'>
         Qq.com | @thissoq
       </div>
 
