@@ -161,15 +161,16 @@ http://localhost:7000
                 Select Department
               </option>
               {departmentList.map((dept, index) => (
-              <option
-              key={index}
-              value={dept.depName}
-              disabled={dept.count >= 40}
-              className={dept.count >=40 ? "text-gray-500" : "text-black"} 
-            >
-              {`${dept.depName}`}
-            </option>
+                <option
+                  key={index}
+                  value={dept.depName}
+                  disabled={dept.count >= 40}
+                  className={dept.count >= 40 ? "text-gray-500" : "text-black"}
+                >
+                  {`${dept.depName} (${dept.count}/40)`}
+                </option>
               ))}
+
             </select>
           </div>
         </div>
