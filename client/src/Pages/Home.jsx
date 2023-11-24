@@ -17,11 +17,8 @@ function Home() {
           className="absolute inset-0 m-0 h-full overflow-hidden rounded-none bg-cover bg-clip-border bg-center text-gray-400 shadow-none w-full"
           style={{ backgroundImage: `url(${homes})` }}
         >
-          <img
-        src={logo}
-        alt="Logo"
-        className="absolute top-10 left-7 h-16  m-4"
-      />
+          <img src={logo} alt="Logo" className="absolute top-10 left-7 h-12 md:h-16 m-4" />
+
           <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50"></div>
         </div>
         <div
@@ -45,12 +42,13 @@ function Home() {
           style={{ paddingRight: "880px" }}
         >
           <Link to="/registration">
-            <button
-              type="button"
-              className="text-white  text-sm font-bold dark:bg-blue-300 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-7 py-2.5 mr-8 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
-            >
-              Register
-            </button>
+          <button
+  type="button"
+  className="text-white text-sm font-bold dark:bg-blue-300 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-4 py-2 md:px-7 md:py-2.5 mr-4 mb-2 dark:bg-blue-400 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
+>
+  Register
+</button>
+
           </Link>
         </div>
       </div>

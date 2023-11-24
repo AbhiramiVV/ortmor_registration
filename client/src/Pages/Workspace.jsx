@@ -22,7 +22,7 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full mt-12 mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-15 w-10"
+                className="object-cover w-full h-11 w-9"
                 src={item.image}
                 alt=""
               />
@@ -56,7 +56,7 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full  mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-15 w-10"
+                className="object-cover w-full h-11 w-9"
                 src={item.image}
                 alt=""
               />
