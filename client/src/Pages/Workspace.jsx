@@ -22,7 +22,7 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full mt-12 mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-11 w-9"
+                className="object-cover  h-11 w-9"
                 src={item.image}
                 alt=""
               />
@@ -38,7 +38,7 @@ function Workspace() {
                       <td>
                         <button
                           type="button"
-                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-400 dark:hover:bg-blue-300 dark:focus:ring-gray-700 dark:border-gray-700"
+                          className="text-white text-sm font-bold  hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg px-5 py-2.5 mr-2 mb-2 dark:bg-blue-300 dark:hover:bg-blue-400 dark:focus:ring-gray-700 dark:border-gray-700"
                         >
                           Read more
                         </button>
@@ -56,7 +56,7 @@ function Workspace() {
           <div key={index} className="max-w-sm bg-white border border-gray-300 shadow-lg w-full  mx-3">
             <div className="flex justify-center mt-6">
               <img
-                className="object-cover w-full h-11 w-9"
+                className="object-cover  h-11 w-9"
                 src={item.image}
                 alt=""
               />
