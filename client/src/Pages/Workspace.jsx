@@ -18,15 +18,13 @@ function Workspace() {
 
   const openModal = () => {
     const image = Asset15;  // Set the image to Asset15
-    const text = `About Workshop
+    const text = `
       "Systems, Processes & Assurance-Be Good, Not Lucky" will emphasize the significance of strong
       systems and processes for ensuring success and minimizing dependence on luck. It will delve into the
       benefits of prioritizing well-designed and efficient approaches, enabling individuals and organizations
       to attain consistent and dependable outcomes across diverse fields.
       Bio-Leslie Cox
-      Les, a visionary leader, has spent two decades challenging conventional norms in safety and
-      sustainability to achieve sustainable outcomes in complex and demanding projects worldwide. As the
-      Founding Partner of AEP, he advocates operational excellence through effective leadership,
+      sustainability to achieve sustainable outcomes in complex and demanding projects worldwide. 
       promoting a culture of embracing vulnerability as a catalyst for change and implementing purposeful
       management systems for businesses globally.`;
   

@@ -11,21 +11,8 @@ function Modal({ closeModal, content }) {
           src={content.image}
           alt=""
         />
+        <h2 className='text-2xl'>About Workshop</h2>
         <p className="text-xl">{content.text}</p>
-
-        {isAsset15 && (
-          <>
-            <p>About Workshop
-"Systems, Processes & Assurance-Be Good, Not Lucky" will emphasize the significance of strong
-systems and processes for ensuring success and minimizing dependence on luck. It will delve into the
-benefits of prioritizing well-designed and efficient approaches, enabling individuals and organizations
-to attain consistent and dependable outcomes across diverse fields.
-Bio-Leslie Cox
-promoting a culture of embracing vulnerability as a catalyst for change and implementing purposeful
-management systems for businesses globally.</p>
-            {/* Bio-Leslie Cox and other content */}
-          </>
-        )}
 
         <button
           className="mt-4 bg-gray-900 text-white px-4 py-2 rounded-md"
