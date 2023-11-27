@@ -15,7 +15,7 @@ axios.interceptors.request.use(request => {
       'Content-Type': 'application/json',
     },
     withCredentials: true,
-    url: 'http://localhost:7000' + request.url,
+    url: 'https://ortmor.skoshoes.store' + request.url,
   };
 
   return modifiedRequest;
